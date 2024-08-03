@@ -1,0 +1,17 @@
+.home-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    background-color: #d68e5e;
+    color: white;
+    position: absolute;
+    width: 90%;
+    z-index: -1;
+    padding: 10px;
+    display: flex;
+}
