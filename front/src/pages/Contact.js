@@ -30,7 +30,7 @@ function Contact() {
 
     const contactDetails = { fullName, email, shortMessage };
 
-    const response = await fetch('/api/contact', {
+    const response = await fetch('https://portfolio-website-4-by7b.onrender.com/api/contact', {
       method: 'POST',
       body: JSON.stringify(contactDetails),
       headers: {
